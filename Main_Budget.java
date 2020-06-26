@@ -15,7 +15,7 @@ public class Main_Budget {
 		
 		//get budgets and amounts
 		for (int i = 0; i < budget.length; i++) {
-			System.out.println("Enter a budget name");
+			System.out.println("Enter a budget category");
 			budget[i] = input.next();
 			System.out.println("Enter budget amount");
 			amount[i] = input.nextDouble();
